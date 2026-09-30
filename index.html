@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mos Eisley Cantina · Tatooine's busiest watering hole</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="min-h-screen bg-slate-950 bg-gradient-to-br from-slate-950 via-violet-950/40 to-amber-950/30 text-slate-100 antialiased"
+  >
+    <header
+      class="sticky top-0 z-50 border-b border-white/10 bg-slate-950/70 backdrop-blur"
+    >
+      <nav
+        aria-label="Primary"
+        class="mx-auto flex max-w-5xl items-center justify-between gap-6 px-6 py-3"
+      >
+        <a
+          href="#"
+          class="flex items-center gap-3 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+        >
+          <span
+            class="flex size-7 items-center justify-center rounded-lg bg-gradient-to-br from-violet-500 to-amber-500 text-xs font-bold text-white"
+          >
+            M
+          </span>
+          <span class="text-sm font-semibold tracking-tight">
+            Mos Eisley Cantina
+          </span>
+        </a>
+
+        <ul class="hidden items-center gap-7 text-sm text-slate-300 md:flex">
+          <li>
+            <a
+              href="#"
+              class="rounded transition hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+              >Features</a
+            >
+          </li>
+          <li>
+            <a
+              href="#features"
+              class="rounded transition hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+              >Menu</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="rounded transition hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+              >Live music</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="rounded transition hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+              >Sign in</a
+            >
+          </li>
+        </ul>
+
+        <a
+          href="#"
+          class="inline-flex items-center gap-2 rounded-lg bg-violet-600 px-3.5 py-1.5 text-xs font-semibold text-white shadow-lg shadow-violet-900/40 transition hover:bg-violet-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+        >
+          Reserve a booth
+          <span aria-hidden="true">&rarr;</span>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        class="mx-auto grid max-w-5xl grid-cols-1 items-center gap-12 px-6 py-20 md:grid-cols-2 md:py-28"
+      >
+        <div>
+          <span
+            class="inline-flex items-center gap-2 rounded-full border border-violet-400/30 bg-violet-500/10 px-3 py-1 text-xs font-medium text-violet-200"
+          >
+            <span class="size-1.5 rounded-full bg-amber-400"></span>
+            Open every night, 3 ABY
+          </span>
+
+          <h1
+            class="mt-6 text-4xl font-bold leading-[1.1] tracking-tight sm:text-5xl"
+          >
+            Find your watering hole on
+            <span
+              class="bg-gradient-to-r from-violet-400 to-amber-400 bg-clip-text text-transparent"
+              >Tatooine</span
+            >
+          </h1>
+
+          <p class="mt-6 max-w-md text-sm leading-relaxed text-slate-300">
+            Live music every night, smugglers welcome in the back booths, and
+            droids: please check the house policy at the door.
+          </p>
+
+          <div class="mt-8 flex flex-wrap items-center gap-4">
+            <a
+              href="#"
+              class="rounded-lg bg-violet-600 px-4 py-2.5 text-sm font-semibold text-white shadow-lg shadow-violet-900/40 transition hover:bg-violet-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+            >
+              Reserve a booth
+            </a>
+            <a
+              href="#"
+              class="rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-sm font-semibold text-slate-100 transition hover:border-white/30 hover:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+            >
+              See live music
+            </a>
+          </div>
+
+          <dl class="mt-12 flex flex-wrap gap-x-12 gap-y-6">
+            <div>
+              <dt class="text-xs text-slate-400">Booths</dt>
+              <dd class="mt-1 text-xl font-bold">48</dd>
+            </div>
+            <div>
+              <dt class="text-xs text-slate-400">Live bands</dt>
+              <dd class="mt-1 text-xl font-bold">7 / week</dd>
+            </div>
+            <div>
+              <dt class="text-xs text-slate-400">Open since</dt>
+              <dd class="mt-1 text-xl font-bold">5 BBY</dd>
+            </div>
+          </dl>
+        </div>
+
+        <figure
+          class="overflow-hidden rounded-2xl ring-1 ring-white/10 shadow-2xl shadow-violet-900/60"
+        >
+          <img
+            src="https://product-builder-fullstack.s3.eu-west-3.amazonaws.com/M02_Web-Foundation/unsplash-cantina.jpeg"
+            alt="Backlit bottles glowing on the counter of the Mos Eisley Cantina"
+            class="aspect-[4/5] w-full object-cover"
+          />
+          <figcaption
+            class="flex items-center justify-between gap-4 border-t border-white/10 bg-slate-900/70 px-5 py-4"
+          >
+            <div>
+              <p class="text-sm font-semibold">Tonight at the Cantina</p>
+              <p class="mt-0.5 text-xs text-slate-400">
+                Figrin D&rsquo;an &amp; the Modal Nodes
+              </p>
+            </div>
+            <span
+              class="inline-flex items-center gap-1.5 rounded-full border border-amber-400/30 bg-amber-500/10 px-2.5 py-1 text-xs font-medium text-amber-300"
+            >
+              <span class="size-1.5 rounded-full bg-amber-400"></span>
+              Live
+            </span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section
+        id="features"
+        aria-labelledby="features-title"
+        class="mx-auto max-w-5xl px-6 py-20"
+      >
+        <div class="text-center">
+          <p
+            class="text-xs font-semibold uppercase tracking-[0.2em] text-violet-400"
+          >
+            What you find inside
+          </p>
+          <h2
+            id="features-title"
+            class="mt-4 text-3xl font-bold tracking-tight"
+          >
+            A booth for every kind of trouble
+          </h2>
+          <p class="mt-4 text-sm text-slate-400">
+            Three things you can count on, any night you walk through the door.
+          </p>
+        </div>
+
+        <div class="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
+          <article
+            class="rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur transition duration-200 hover:-translate-y-1 hover:border-white/20"
+          >
+            <div
+              class="flex size-12 items-center justify-center rounded-xl bg-violet-500/10 ring-1 ring-violet-400/20"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.75"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+                class="size-5 text-violet-300"
+              >
+                <circle cx="6" cy="18" r="3" />
+                <circle cx="18" cy="16" r="3" />
+                <path d="M9 18V5l12-2v13" />
+              </svg>
+            </div>
+            <h3 class="mt-5 text-base font-semibold">Live music nightly</h3>
+            <p class="mt-2 text-xs leading-relaxed text-slate-400">
+              Sunset to sunrise. The house band plays loud enough to drown out a
+              bounty hunter. Bring credits for tips.
+            </p>
+          </article>
+
+          <article
+            class="rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur transition duration-200 hover:-translate-y-1 hover:border-white/20"
+          >
+            <div
+              class="flex size-12 items-center justify-center rounded-xl bg-amber-500/10 ring-1 ring-amber-400/20"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.75"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+                class="size-5 text-amber-300"
+              >
+                <path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3z" />
+              </svg>
+            </div>
+            <h3 class="mt-5 text-base font-semibold">Smugglers welcome</h3>
+            <p class="mt-2 text-xs leading-relaxed text-slate-400">
+              No questions asked. Back-corner booths, dim lighting,
+              blast-resistant alcoves. No records kept.
+            </p>
+          </article>
+
+          <article
+            class="rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur transition duration-200 hover:-translate-y-1 hover:border-white/20"
+          >
+            <div
+              class="flex size-12 items-center justify-center rounded-xl bg-violet-500/10 ring-1 ring-violet-400/20"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.75"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+                class="size-5 text-violet-300"
+              >
+                <rect x="4" y="7" width="16" height="13" rx="2" />
+                <path d="M12 3v4" />
+                <path d="M9 12h.01" />
+                <path d="M15 12h.01" />
+                <path d="M9 16h6" />
+              </svg>
+            </div>
+            <h3 class="mt-5 text-base font-semibold">
+              Droids: see house policy
+            </h3>
+            <p class="mt-2 text-xs leading-relaxed text-slate-400">
+              Limits on the floor. Power-down recommended for protocol units.
+              Astromechs welcome with their owner.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
